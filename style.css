@@ -138,23 +138,49 @@ hr {
 .bottom-container {
     background: #66BFBF;
     padding: 50px 0 20px;
-    height: 10rem;
+    height: 15rem;
+    align-items: center;
 }
 
 .bottom-container a {
     color: #11999E;
     text-decoration: none;
-    padding: 2rem;
-    margin-top: 2rem;
-    font-size: 18px;
+    /* padding: 0 2rem;
+    margin-top: 4rem;
+    font-size: 18px; */
 }
 
 .bottom-container p {
     color: #EAF6F6;
-    margin: 3.4rem auto;
+    margin: 2rem auto 0 auto;
 }
-
 .contact-message {
     width: 40%;
     margin: 40px auto 60px;
+}
+.logo{
+    margin: 0rem auto 1.4rem auto;
+    padding: 0 4rem;
+    font-size: 2rem;
+}
+#linkdin{
+    margin: 0 2rem;
+    font-size: 30px;  
+}
+#linkdin:hover{
+    color: white;
+}
+#insta{
+    margin: 0 2rem;
+    font-size: 30px;  
+}
+#insta:hover{
+    color: white;
+}
+#web{
+    margin: 0 2rem;
+    font-size: 30px;  
+}
+#web:hover{
+    color: white;
 }
