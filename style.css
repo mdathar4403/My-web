@@ -58,13 +58,19 @@ h3 {
     text-align: left;
     line-height: 2;
 }
-
+.skills {
+    margin: 100px auto;
+}
 .code-img {
     width: 100%;
     float: left;
     width: 10rem;
     height: 10rem;
-    margin: 0 30px 0 0;
+    margin: 0 auto 30px auto;
+    padding: 0 auto;
+}
+.tleft{
+    margin: 0 auto;
 }
 
 .chilli-img {
@@ -72,7 +78,7 @@ h3 {
     float: right;
     width: 10rem;
     height: 10rem;
-    margin: 0 0 0 30px;
+    margin: 30px auto 20px auto;
 }
 
 .profile {
@@ -99,14 +105,13 @@ p {
 
 hr {
     border: dotted #888888 6px;
+    margin: 0 auto;
     border-bottom: none;
     width: 5%;
     opacity: 0.4;
 }
 
-.skills {
-    margin: 100px auto;
-}
+
 
 .btn {
     background: #11cdd4;
@@ -139,6 +144,7 @@ hr {
     background: #66BFBF;
     padding: 50px 0 20px;
     height: 15rem;
+    width: 100%;
     align-items: center;
 }
 
