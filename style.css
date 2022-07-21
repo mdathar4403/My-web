@@ -63,11 +63,10 @@ h3 {
 }
 .code-img {
     width: 100%;
-    float: left;
     width: 10rem;
     height: 10rem;
     margin: 0 auto 30px auto;
-    padding: 0 auto;
+    justify-content: center;
 }
 .tleft{
     margin: 0 auto;
@@ -75,10 +74,10 @@ h3 {
 
 .chilli-img {
     width: 100%;
-    float: right;
     width: 10rem;
     height: 10rem;
-    margin: 30px auto 20px auto;
+    margin: 30px 0 20px 50px;
+    justify-content: center;
 }
 
 .profile {
@@ -88,13 +87,12 @@ h3 {
 h2 {
     padding: 10px;
 }
-
 .intro {
-    width: 30%;
+    width: 60%;
     margin: auto;
 }
 
-p {
+p{
     line-height: 2;
 }
 
@@ -164,6 +162,9 @@ hr {
     width: 40%;
     margin: 40px auto 60px;
 }
+.pic{
+    margin-bottom: 2rem;
+}
 .logo{
     margin: 0rem auto 1.4rem auto;
     padding: 0 4rem;
@@ -189,4 +190,36 @@ hr {
 }
 #web:hover{
     color: white;
+}
+
+@media all and (max-width:720px) {
+    .mount{
+        width:80%;
+    }
+    .top-cloud{
+        width: 30%;
+    }
+    .bottom-cloud{
+        width: 30%;
+    }
+}
+@media all and (max-width: 766px) {
+    
+}
+@media all and (max-width:480px) {
+    .top-cloud{
+        display: none;
+    }
+    .bottom-cloud{
+        display: none;
+    }
+    .name{
+        font-size: 3.2rem;
+    }
+    .para{
+        font-size: 1.7rem;
+    }
+    .pic{
+        width: 60%;
+    }
 }
